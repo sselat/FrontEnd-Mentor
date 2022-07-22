@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap'); 
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Fraunces', serif; */
 :root{
   --dark-cyan: hsl(158, 36%, 37%);
   --cream: hsl(30, 38%, 92%);
@@ -5,28 +8,38 @@
   --dark-grayish-blue: hsl(228, 12%, 48%);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap'); 
-/* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Fraunces', serif; */
+
 *{
   margin: 0;
   padding: 0;
 }
 body{
     width: 100vw;
-    height: 800px;
+    max-height: 800px;
+    background-color: var(--cream);
 }
 .card{
   display: flex;
   width: 41.66%;
   height: 56.25%;
+  margin: 20% auto;
+  border-radius: 15px;
+  background-color: white;
 }
 .card img{
   max-width: 50%;
   max-height: 100%;
+  border-radius: 15px 0 0 15px;
 }
 
-
+.specs h2{
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', serif;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
